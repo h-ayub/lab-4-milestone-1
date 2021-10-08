@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
                 e.printStackTrace();
             }
         }
-
+        textView.setVisibility(View.INVISIBLE);
         runOnUiThread(new Runnable() {
             @Override
             public void run() {
